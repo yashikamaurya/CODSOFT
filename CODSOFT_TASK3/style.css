@@ -1,0 +1,132 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(white, rgb(201, 193, 193), rgb(114, 106, 106));
+}
+.calculator {
+  position: absolute;
+  left: 66px;
+  bottom: 30px;
+}
+.container {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  width: 420px;
+  height: 556px;
+  margin-left: 500px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  background-color: rgb(224, 224, 224);
+  box-shadow: 0px 0px 20px black;
+}
+button {
+  border-style: none;
+  width: 86px;
+  height: 86px;
+  margin: 3px;
+  font-size: 35px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(224, 144, 144);
+}
+button:hover {
+  background-color: rgba(230, 218, 218, 0.806);
+}
+input {
+  border-style: none;
+  width: 365px;
+  height: 50px;
+  margin-bottom: 8px;
+  font-size: 40px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.click {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  float: right;
+}
+i {
+  margin-top: 10px;
+}
+h1 {
+  text-align: center;
+  margin-left: 55%;
+  text-shadow: 1px 1px 10px black;
+}
+
+.box div {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: 6px solid white;
+}
+.box div:nth-child(1) {
+  top: 12%;
+  left: 42%;
+  animation: sample 10s linear infinite;
+}
+.box div:nth-child(2) {
+  top: 16%;
+  left: 15%;
+  animation: sample 7s linear infinite;
+}
+.box div:nth-child(3) {
+  top: 70%;
+  left: 5%;
+  animation: sample 9s linear infinite;
+}
+.box div:nth-child(4) {
+  top: 20%;
+  left: 90%;
+  animation: sample 6s linear infinite;
+}
+.box div:nth-child(5) {
+  top: 50%;
+  left: 66%;
+  animation: sample 10s linear infinite;
+}
+.box div:nth-child(6) {
+  top: 90%;
+  left: 40%;
+  animation: sample 10s linear infinite;
+}
+.box div:nth-child(7) {
+  top: 100%;
+  left: 12%;
+  animation: sample 5s linear infinite;
+}
+.box div:nth-child(8) {
+  top: 80%;
+  left: 90%;
+  animation: sample 6s linear infinite;
+}
+.box div:nth-child(9) {
+  top: 54%;
+  left: 30%;
+  animation: sample 8s linear infinite;
+}
+.box div:nth-child(10) {
+  top: 10%;
+  left: 70%;
+  animation: sample 10s linear infinite;
+}
+@keyframes sample {
+  0% {
+    transform: scale(0) translateY(0) rotate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.3) translateY(-90px) rotate(360deg);
+    opacity: 0;
+  }
+}
